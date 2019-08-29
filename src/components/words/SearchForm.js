@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 export default function SearchForm({ searchTerm, handleChange }) {
-
+  console.log(searchTerm);
   return (
     <input
       type="text"

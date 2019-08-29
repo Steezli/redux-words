@@ -10,7 +10,7 @@ const mapStateToProps = state => ({
 const mapDispatchToState = dispatch => ({
   handleChange({ target }) {
     dispatch(updateSearchTerm(target.value));
-  },
+  }
 });
 
 export default connect(
